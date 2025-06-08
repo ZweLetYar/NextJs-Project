@@ -1,0 +1,103 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Building Modern Web Applications with Next.js 13",
+      "slug": "building-modern-web-applications-with-nextjs-13",
+      "excerpt": "Learn how to leverage the power of Next.js 13 to build fast, SEO-friendly web applications with React.",
+      "content": "Next.js 13 introduces revolutionary features that change how we build web applications. The new App Router, Server Components, and improved data fetching make it easier than ever to create performant applications. In this comprehensive guide, we'll explore these features and learn how to implement them effectively.",
+      "author": {
+        "id": 1,
+        "name": "John Smith",
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      "featured_image": "https://codewithmosh.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2F8MbtJ4hTAaOk3KPcptqZ&w=3840&q=75",
+      "categories": ["Web Development", "React", "Next.js"],
+      "tags": ["javascript", "react", "nextjs", "web-development"],
+      "metadata": {
+        "views": 1250,
+        "reading_time": "8 minutes",
+        "likes": 45
+      },
+      "status": "published",
+      "comments": [
+        {
+          "id": 1,
+          "user": "Alice Johnson",
+          "content": "Great article! The explanation of Server Components was particularly helpful.",
+          "created_at": "2024-01-19T10:30:00Z"
+        },
+        {
+          "id": 2,
+          "user": "Bob Wilson",
+          "content": "Could you elaborate more on the data fetching patterns?",
+          "created_at": "2024-01-19T11:15:00Z"
+        }
+      ],
+      "created_at": "2024-01-18T09:00:00Z",
+      "updated_at": "2024-01-19T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Mastering Tailwind CSS: From Basics to Advanced",
+      "slug": "mastering-tailwind-css-basics-to-advanced",
+      "excerpt": "A comprehensive guide to using Tailwind CSS for modern web design.",
+      "content": "Tailwind CSS has revolutionized how we approach web styling. This utility-first framework provides incredible flexibility while maintaining consistency in design. Let's dive deep into advanced concepts, best practices, and optimization techniques.",
+      "author": {
+        "id": 2,
+        "name": "Sarah Davis",
+        "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+      },
+      "featured_image": "https://img-c.udemycdn.com/course/480x270/6541501_7117_3.jpg",
+      "categories": ["CSS", "Web Design", "Frontend"],
+      "tags": ["css", "tailwind", "web-design", "frontend"],
+      "metadata": {
+        "views": 980,
+        "reading_time": "12 minutes",
+        "likes": 38
+      },
+      "status": "published",
+      "comments": [
+        {
+          "id": 3,
+          "user": "Mike Brown",
+          "content": "The section about custom configurations was exactly what I needed!",
+          "created_at": "2024-01-20T09:45:00Z"
+        }
+      ],
+      "created_at": "2024-01-19T15:00:00Z",
+      "updated_at": "2024-01-20T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Demystifying TypeScript for JavaScript Developers",
+      "slug": "demystifying-typescript-for-javascript-developers",
+      "excerpt": "A practical guide to adopting TypeScript in your JavaScript projects with confidence.",
+      "content": "TypeScript adds powerful static typing to JavaScript, helping developers write safer and more maintainable code. In this post, we'll cover TypeScript fundamentals, real-world use cases, and migration tips for existing JavaScript codebases.",
+      "author": {
+        "id": 3,
+        "name": "Emily Carter",
+        "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+      },
+      "featured_image": "https://miro.medium.com/v2/resize:fit:1400/1*X_02JZqh8c_LaITmnyr4ZA.jpeg",
+      "categories": ["JavaScript", "TypeScript", "Frontend"],
+      "tags": ["typescript", "javascript", "frontend", "developer-tools"],
+      "metadata": {
+        "views": 760,
+        "reading_time": "10 minutes",
+        "likes": 29
+      },
+      "status": "published",
+      "comments": [
+        {
+          "id": 4,
+          "user": "Liam Nguyen",
+          "content": "TypeScript has really helped my team reduce bugs. Great overview!",
+          "created_at": "2024-01-22T08:00:00Z"
+        }
+      ],
+      "created_at": "2024-01-21T12:00:00Z",
+      "updated_at": "2024-01-22T08:30:00Z"
+    }
+  ]
+}

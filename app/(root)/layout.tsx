@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "../components/navbar";
 
 function layout({ children }: { children: React.ReactNode }) {
   return (
     <div>
-      <nav className="text-4xl">Nav bar</nav>
+      <Navbar />
       {children}
     </div>
   );
