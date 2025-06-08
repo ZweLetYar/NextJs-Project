@@ -21,7 +21,10 @@ type Post = {
 };
 
 export default async function Page({ params }: { params: { id: string } }) {
-  const res = await fetch(`http://localhost:3001/posts/${params.id}`);
+  const id = params.id;
+  const res = await fetch(`http://localhost:3001/posts/${id}`, {
+    cache: "no-store", // Avoid stale data and revalidate each time
+  });
   if (!res.ok) {
     notFound();
   }
