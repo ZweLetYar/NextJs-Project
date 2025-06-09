@@ -34,7 +34,10 @@ export default async function Page() {
   const posts: Post[] = await res.json();
 
   return (
-    <div className="bg-black min-h-screen py-10 px-4 mt-5">
+    <div className="flex flex-col  items-center gap-8 bg-black min-h-screen py-10 px-4 mt-5">
+      <h1 className="font-bold text-2xl ">
+        Web developmet | <span className="text-sky-500">Blog Posts</span>
+      </h1>
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {posts.map((post) => (
           <Link href={`posts/${post.id}`} key={post.id}>

@@ -19,9 +19,7 @@ type Post = {
     likes: number;
   };
 };
-
-export default async function Page({ params }: { params: { id: string } }) {
-  const id = params.id;
+const getPostById = async (id: string) => {
   const res = await fetch(`http://localhost:3001/posts/${id}`, {
     cache: "no-store", // Avoid stale data and revalidate each time
   });
@@ -29,7 +27,22 @@ export default async function Page({ params }: { params: { id: string } }) {
     notFound();
   }
 
-  const post: Post = await res.json();
+  return res.json();
+};
+
+export const generateMetadata = async ({
+  params,
+}: {
+  params: { id: string };
+}) => {
+  const post = await getPostById(params.id);
+  return {
+    title: `Blogs | ${post.title}`,
+  };
+};
+
+export default async function Page({ params }: { params: { id: string } }) {
+  const post: Post = await getPostById(params.id);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
